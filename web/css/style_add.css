@@ -1,0 +1,105 @@
+body {
+        background-color: #ebebeb;
+    }
+    #header {
+        color:#cc3300;
+        width:80%;
+        text-align:center;
+        padding:1px;
+        font-family: Impact, Haettenschweiler, 'Franklin Gothic Bold', Charcoal, 'Helvetica Inserat', 'Bitstream Vera Sans Bold', 'Arial Black', 'sans serif';
+
+    }
+
+    div.horizontal {
+        width:100%;
+        display: block;
+        height:auto;
+        background-color:#ebebeb;
+    }
+    div.horizontal ul {
+        list-style-type:none;
+        width:80%;
+        height: 3vh;
+        margin:0;
+        padding:0;
+    }
+    div.horizontal li {
+        float:left;
+        height: 3vh;
+        width: 25%
+    }
+
+    div.horizontal a {
+        display:block;
+    }
+    div.horizontal a:link,div.horizontal a:visited {
+        font-weight:bold;
+        color:#fff;
+        background-color:#cc3300;
+        text-align:center;
+        padding:5px;
+        text-decoration:none;
+        text-transform:uppercase;
+    }
+    div.horizontal a:hover,div.horizontal a:active {
+        background-color: #404040;
+    }
+    #section {
+        width:80%;
+        padding:0px;
+        color: white;
+        text-align: left;
+    }
+    #footer {
+        background-color:black;
+        color:orange;
+        clear:both;
+        text-align:center;
+        padding:5px;
+        width:79%;
+    }
+
+    tbody{
+        border: 1px solid #cc3300;
+    }
+
+    button{
+        text-align: center;
+    }
+
+    input, button, submit { border:none; }
+
+    table, th, td {
+        border: 1px solid #cc3300;
+        margin: 0 auto 0 auto;
+        border-collapse: collapse;
+        padding: 1px;
+        width: 70%;
+        text-align:center;
+        table-layout: auto;
+    }
+
+    table{
+        height: 100%;
+        margin-top: 2vh;
+        border: 3px solid #cc3300;
+        font-family: "Oxygen Mono", "Microsoft YaHei", san-serif;
+        font-size: 1rem;
+    }
+
+    table th{
+        background-color: #cc3300;
+        color:#ebebeb;
+        margin: 5px;
+    }
+
+    table td{
+        background-color: #ebebeb;
+        color:#000000;
+        margin: 5px;
+    }
+
+    button:hover{
+        background-color: #404040;
+        color: #fff;
+    }

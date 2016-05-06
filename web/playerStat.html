@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<title>Player Stat &nbsp|&nbsp CSSA Basketball Tournament</title>
+<head>
+  <link rel="shortcut icon" href="./img/icon.png">
+  <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />    
+</head>
+<body>
+<script src = "js/jquery.min.js"></script>
+<script src = "js/playerStat.js"></script>
+<script type="text/javascript" src="./js/canvasjs.min.js"></script>
+    <div align = "center">
+        <div class="horizontal">
+            <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./topPlayers.html">Top Players</a></li>
+            <li><a href="./division.html">Division</a></li>
+            <p hidden>
+            </p>
+            </ul>
+        </div>
+        <div id="section" class="flex" style="background-color:transparent">
+          <table><tbody>
+            <tr>
+              <th>Name</th><td id='name'></td>
+            </tr>
+            <tr>
+              <th>Team</th><td id='team'></td>
+            </tr>
+            <tr>
+              <th>Number</th><td id='number'></td>
+            </tr>
+            <tr>
+              <th>Position</th><td id='position'></td>
+            </tr>
+          </tbody><table>
+          <div><p> </p></div>
+          <div id='playerstatinfo'>
+          </div>
+        </div>
+        <div  align = "center"><div id="chartContainer1" style="background-color:transparent; height: 300px; width: 300px;"></div></div>
+        <div  align = "center"><div id="chartContainer2" style="background-color:transparent; height: 300px; width: 300px;"></div></div>
+        <div  align = "center"><div id="chartContainer3" style="background-color:transparent; height: 300px; width: 500px;"></div></div>
+    </div>
+</body>
+</html>

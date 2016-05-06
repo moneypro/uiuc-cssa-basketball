@@ -1,0 +1,191 @@
+body {
+    background-color: #fff;
+    background-image: url("../img/background.jpg");
+    background-repeat: repeat;
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,h4,h5{
+     font-family: Impact, Haettenschweiler, 'Franklin Gothic Bold', Charcoal, 'Helvetica Inserat', 'Bitstream Vera Sans Bold', 'Arial Black', 'sans serif';
+     font-weight: normal;
+     margin: 0;
+     padding: 0;
+}
+
+#header {
+    color:#cc3300;
+    width:80%;
+    text-align:center;
+    padding:1px;
+    font-family: Impact, Haettenschweiler, 'Franklin Gothic Bold', Charcoal, 'Helvetica Inserat', 'Bitstream Vera Sans Bold', 'Arial Black', 'sans serif';
+
+}
+
+div.horizontal {
+    display: flex;
+    height:100vh;
+    float: right;
+    background-color:#cc3300;
+    width: 20%;
+    font-family: "Noto Sans", "Noto Sans CJK SC Light", "Microsoft YaHei", sans-serif;
+}
+    .horizontal li{
+        width: 100%;
+    }
+    div.horizontal ul {
+        list-style-type:none;
+        margin-top: 10vh;
+        padding:5%;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    div.horizontal a {
+        display:block;
+    }
+    div.horizontal a:link,div.horizontal a:visited {
+        font-weight:bold;
+        color:#fff;
+        text-align:right;
+        padding: 5% 0 5% 0;
+        text-decoration:none;
+        text-transform:uppercase;
+    }
+    div.horizontal a:hover,div.horizontal a:active {
+        background-color: #404040;
+    }
+
+#section {
+    padding: 3% 0;
+    color: white;
+    text-align: center;
+    overflow: overlay;
+    background-color: #fff;
+}
+#footer {
+    background-color:black;
+    color:orange;
+    clear:both;
+    text-align:center;
+    padding:5px;
+    width:79%;
+}
+
+tbody{
+    border: 1px solid #cc3300;
+}
+
+button{
+    border: none;
+    background-color: transparent;
+    width: 100%;
+    height: 15vh;
+    text-align: center;
+    color: #404040;
+}
+
+input, button, submit { border:none; } 
+
+table, th, td {
+    border: 1px solid #cc3300;
+    margin: 0 auto 0 auto;
+    border-collapse: collapse;
+    padding: 1px;
+    text-align:center;
+    height: 50%
+}
+
+table{ 
+    height: 100%;
+    border: 3px solid #cc3300;
+    font-family: "Oxygen Mono", "Microsoft YaHei", san-serif;
+    font-size: 1rem;
+}
+
+table th{
+    background-color: #cc3300; 
+    color:#ebebeb;
+    margin: 5px;
+}
+
+table td{
+    background-color: #ebebeb; 
+    color:#000000;
+    margin: 5px;
+}
+
+#recentinfo table{
+    width: 70%;
+    table-layout: fixed;
+}
+button:hover{
+    background-color: #404040;
+    color: #fff;
+}
+
+.left{
+    float: left;
+    width: 40%;
+    position: fixed;
+    max-width: 60vh;
+}
+.banner{
+    overflow: hidden;
+    margin: 0;
+    position: relative;
+    float: left;
+    width: 80%;
+    max-width: 54vh;
+}
+    .banner h2 {margin:0;}
+    .banner div{
+          font-family: Impact, Haettenschweiler, 'Franklin Gothic Bold', Charcoal, 'Helvetica Inserat', 'Bitstream Vera Sans Bold', 'Arial Black', 'sans serif';
+          font-weight: 900;
+          text-align: center;
+          color: white;
+          text-transform: uppercase;
+          margin: 0;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          font-size: 3rem;
+          transform: translate(-50%, -50%);
+    }
+
+.right{
+    display: inline-block;
+    float: left;
+    width: 60%;
+}
+
+#space{
+    width:40%;
+    height:100%;
+    max-width:60vh;
+    display:inline-block;
+    background-color:#fff;
+    float:left;
+}
+
+@media only screen and (max-width: 40em) {
+    .left{display: block; width: 100%; position: initial; }
+
+    #space{ display: none;}
+    .flex{ width: 100%;}
+    .right { width: 100%;}
+    div.banner{
+        display: block;
+        width: 100%;
+        height: 40vh;
+    }
+
+    div.horizontal{
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        float: left;
+    }
+        div.horizontal ul{ margin: 0; padding: 0;}
+        div.horizontal a:link{ text-align: center; padding: 2% 0 2% 0;}
+}
